@@ -7,9 +7,9 @@ int main(void)
 {
 
     float distance_travelled, fuel_consumed, fuel_efficiency;
-    printf("Enter the distance_traveled in kilometers:.\n ");
+    printf("Enter distance_traveled in kilometers:.\n");
     scanf("%f", &distance_travelled);
-    printf("Enter the amount of fuel_consumed in liters: ");
+    printf("Enter fuel_consumed in liters:\n");
     scanf("%f", &fuel_consumed);
     fuel_efficiency = distance_travelled/ fuel_consumed;
     printf("Your fuel_efficiency is: %.2f km/l", fuel_efficiency);
