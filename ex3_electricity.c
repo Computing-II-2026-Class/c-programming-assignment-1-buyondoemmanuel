@@ -6,9 +6,9 @@ int main () {
     // Prompt the user for the units consumed and the cost per unit
 
 
-    printf("Enter the unitsConsumed:");
+    printf("Enter the unitsConsumed:\n");
     scanf("%f", &unitsConsumed);
-    printf("Enter the costPerUnit:");
+    printf("Enter the costPerUnit:\n");
     scanf("%f", &costPerunit);
 
     // Calculate the total electricity bill
