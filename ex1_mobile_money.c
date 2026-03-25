@@ -21,8 +21,8 @@ int main(void)
    
     // Display the total amount to be paid
    
-    printf("feeAmount%.2f\n", feeAmount);
-    printf("totalAmount%.2f\n", totalAmount);
+    printf("feeAmount%.2f UGX\n", feeAmount);
+    printf("totalAmount%.2f UGX\n", totalAmount);
 
  return 0;
 
